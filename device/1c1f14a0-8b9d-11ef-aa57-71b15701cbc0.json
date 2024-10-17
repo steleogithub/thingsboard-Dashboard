@@ -1,0 +1,95 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e83ab240-8b9a-11ef-aa57-71b15701cbc0"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "1c1f14a0-8b9d-11ef-aa57-71b15701cbc0"
+    },
+    "label" : null,
+    "name" : "Asset1-Humidifier1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Humidifier"
+  },
+  "credentials" : {
+    "credentialsId" : "RlzQhm6uXL3vUKSsaFxD",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1a820210-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1c1f14a0-8b9d-11ef-aa57-71b15701cbc0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1729069858631,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1729070966197,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1729069858631,
+      "longValue" : 1729069858631,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.703404,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1729070966197,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.911982,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1729070966197,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

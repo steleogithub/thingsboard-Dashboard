@@ -1,0 +1,63 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "34605e50-8b9a-11ef-aa57-71b15701cbc0"
+    },
+    "label" : null,
+    "name" : "Asset2",
+    "ownerId" : null,
+    "type" : "AP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "34605e50-8b9a-11ef-aa57-71b15701cbc0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "45af56e0-8b9d-11ef-aa57-71b15701cbc0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1729070520969,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.797337,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1729070520969,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.941052,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1729070520969,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

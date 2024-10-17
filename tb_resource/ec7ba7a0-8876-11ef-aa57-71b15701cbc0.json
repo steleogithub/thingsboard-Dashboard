@@ -1,0 +1,44 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxcVFRcXFxcXGBcVFxcXFxcXFxUYHSggGBolHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKBwcGDgcPDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACgQAQEBAAAEBAYDAQAAAAAAAAABEQIhQfAxUWGREnGBobHRweHxA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDw7DF4b1ATDGrLPH5+5gM4Y0Azi/CuLe+vz5gziYqgzi/D1778FQDExrEBMMaoDOGNAM4Y1YAzhjRYDONcPDMu2705TL57d5Ehbb4/L6AzhjVASRMVcBmQxrMLO/yDOGNVbwWcs+l5X2BjFx1+LOWZeXSbs3refXvHPz+3fUGcMaAZxG9YBY3w+zEUFtNEBaUAE1ZOXff+lA2kEBc69F3refj7pOKzwtm8r6zyqALpUBQACQQGrx3M3l+t/d90JEBSBLencBLWrLPT9IvxXw+X29fqCb35dRGpN5AiKYCKgCyESqCVdD8gchFBGWmQa4IJG8+XL3oMriAKu9UQFXinl4evj7fRABc5JAEFiAKgCggKAAJigEEAW99VvDZmyyWbPWbZs8+cs+iABKgKIoBiRbxb/Uz06Ab0790UA0qNbyzl59Pz/AIFICMt1gFjUrMaAhiAKIoFoIAsRQRQAQAU0AAQFBAVFABFoFgaUA1ABYs8On898/sgCLaUEXhuf5L+UAU4jCgVhtgGuESNAQoAjXD66gAi0BFRbAQFwAEBcAAxFQFMAAiVYAAAGIClM5b33znuSd+nUCkvmi0DinpgYUDe+/ANADTEBd5MNsAsaZjXDN5f57gb06frw/IWZc8vL9oCop33QIBgILIgAKARIoCKAAAaEAAUEKqAUwACooBTCgaBOHx9PH3k/mAUIAUOLxNvgCMtMg1wqzGoCLpAEVGuHisyy5ZzlnjvnASJFzl3+PqWgaIu9/QALEBSwi53/QIioCiKAQWQEAAIYSbywCmgBiLiAKigaYAItoAiyd73oAYw3YwCxUigsRagLiKSggKAudcZiwDDBd/XeAgGd/cChoBpTQFiAAtSVAFQBcNDuAYgoGrWVgBCIC06fg4YgLIQQBlrWQWKkaoG9998kFnzwEBQEVAFxFoIL9f79O/IoECmAWlot8uvfTzBAQFJBc9QQs6AAWiAKsvQvf8AgJCFMAhF4+HPaX3mz7YlAlNXg47Ls/fK8uqUC/bniLxeeePt9EAVFBKy1WQWKkawANQBUAU4r1ADQgCKUAoAIoAEFwEJ/oAYjViYACApBAa4ZPPPH8cv0gAvvv8ACcUzy+l37wrX/Pisuy5efP6Z/QMo1wzxTANBAUC0BhpKAaAGrqAGmgBpoAaaAFpoAaaALeJNADTQA1dAE00ANXUAW8SaALqaALqaALOI+IATV0ATTQA+JAB//9k=",
+    "descriptor" : {
+      "mediaType" : "image/jpeg",
+      "width" : 300,
+      "height" : 168,
+      "size" : 1220,
+      "etag" : "ac65c1f0b70e1831e64dc978db429fc67474b069e66f5e868f6be2f580786b05",
+      "previewDescriptor" : {
+        "mediaType" : "image/png",
+        "width" : 250,
+        "height" : 140,
+        "size" : 10375,
+        "etag" : "d2d29352ef0efcef6af2bf6ea09acb1aa1aec8ddf4a79152c4be434dd27faab5"
+      }
+    },
+    "etag" : "ac65c1f0b70e1831e64dc978db429fc67474b069e66f5e868f6be2f580786b05",
+    "externalId" : null,
+    "fileName" : "images.jfif",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "ec7ba7a0-8876-11ef-aa57-71b15701cbc0"
+    },
+    "link" : "/api/images/tenant/images.jfif",
+    "name" : "images.jfif",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/ik9tXHCE4NBJkRrDq9jxaoXzOXFsC2YD",
+    "publicResourceKey" : "ik9tXHCE4NBJkRrDq9jxaoXzOXFsC2YD",
+    "resourceKey" : "images.jfif",
+    "resourceType" : "IMAGE",
+    "title" : "images.jfif"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

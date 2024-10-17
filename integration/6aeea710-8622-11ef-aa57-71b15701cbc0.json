@@ -1,0 +1,58 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : null,
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "host" : "eu1.cloud.thethings.network",
+        "customHost" : false,
+        "port" : 8883,
+        "ssl" : true,
+        "maxBytesInMessage" : 32368,
+        "connectTimeoutSec" : 10,
+        "credentials" : {
+          "type" : "basic",
+          "username" : "nibiaa-ble-tracker@ttn",
+          "password" : "NNSXS.BGPD3FXPV3DSTPTKLLSNBUBKWSSA65WGSNZNSFA.BMWCBRXRLIGFAYGMCJ5PKWMHX6RBV67XX6XMZASAYSXF5XUA6DTA"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "v3/+/devices/+/up",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "v3/nibiaa-ble-tracker@ttn/devices/${devId}/down/push"
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "6acdb190-8622-11ef-aa57-71b15701cbc0"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "6aeea710-8622-11ef-aa57-71b15701cbc0"
+    },
+    "name" : "The Things Stack Community integration",
+    "remote" : false,
+    "routingKey" : "3b9af73a-7597-bfd6-73eb-da59c7d38ea9",
+    "secret" : "68q0yny30zpkm8b6swr8",
+    "type" : "TTN"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_nibiaa-dev",
+      "lastUpdateTs" : 1728466785809,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

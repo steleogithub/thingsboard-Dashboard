@@ -1,0 +1,87 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c46191c0-8b83-11ef-aa57-71b15701cbc0"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "6b8cd3e0-8ba9-11ef-aa57-71b15701cbc0"
+    },
+    "label" : null,
+    "name" : "Asset1-Thermometer1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Thermometer"
+  },
+  "credentials" : {
+    "credentialsId" : "DgFmGk2zgTze9evWKgpO",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1a820210-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "6b8cd3e0-8ba9-11ef-aa57-71b15701cbc0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1729075138651,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1729075138651,
+      "longValue" : 1729075138651,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.798372,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1729074524283,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.917486,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1729074524283,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

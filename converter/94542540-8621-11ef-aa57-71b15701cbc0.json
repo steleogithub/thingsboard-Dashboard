@@ -1,0 +1,29 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : null,
+      "encoder" : "Defualt\r\n\r\n\r\n// Decode an uplink message from a buffer\r\n// payload - array of bytes\r\n// metadata - key/value object\r\n\r\n/** Decoder **/\r\n\r\n// decode payload to string\r\nvar payloadStr = decodeToString(payload);\r\n\r\n// decode payload to JSON\r\n// var data = decodeToJson(payload);\r\n\r\nvar deviceName = 'Device A';\r\nvar deviceType = 'thermostat';\r\nvar customerName = 'Customer C';\r\nvar groupName = 'thermostat devices';\r\nvar manufacturer = 'Example corporation';\r\n// use assetName and assetType instead of deviceName and deviceType\r\n// to automatically create assets instead of devices.\r\n// var assetName = 'Asset A';\r\n// var assetType = 'building';\r\n\r\n// Result object with device/asset attributes/telemetry data\r\nvar result = {\r\n// Use deviceName and deviceType or assetName and assetType, but not both.\r\n   deviceName: deviceName,\r\n   deviceType: deviceType,\r\n// assetName: assetName,\r\n// assetType: assetType,\r\n// customerName: customerName,\r\n   groupName: groupName,\r\n   attributes: {\r\n       model: 'Model A',\r\n       serialNumber: 'SN111',\r\n       integrationName: metadata['integrationName'],\r\n       manufacturer: manufacturer\r\n   },\r\n   telemetry: {\r\n       temperature: 42,\r\n       humidity: 80,\r\n       rawData: payloadStr\r\n   }\r\n};\r\n\r\n/** Helper functions **/\r\n\r\nfunction decodeToString(payload) {\r\n   return String.fromCharCode.apply(String, payload);\r\n}\r\n\r\nfunction decodeToJson(payload) {\r\n   // covert payload to string.\r\n   var str = decodeToString(payload);\r\n\r\n   // parse string to JSON\r\n   var data = JSON.parse(str);\r\n   return data;\r\n}\r\n\r\nreturn result;",
+      "tbelEncoder" : "// Encode downlink data from incoming Rule Engine message\n\n// msg - JSON message payload downlink message json\n// msgType - type of message, for ex. 'ATTRIBUTES_UPDATED', 'POST_TELEMETRY_REQUEST', etc.\n// metadata - list of key-value pairs with additional data about the message\n// integrationMetadata - list of key-value pairs with additional data defined in Integration executing this converter\n\n/** Encoder **/\n\nvar data = {};\n\n// Process data from incoming message and metadata\n\ndata.tempFreq = msg.temperatureUploadFrequency;\ndata.humFreq = msg.humidityUploadFrequency;\n\ndata.devSerialNumber = metadata['ss_serialNumber'];\n\n// Result object with encoded downlink payload\nvar result = {\n\n    // downlink data content type: JSON, TEXT or BINARY (base64 format)\n    contentType: \"JSON\",\n\n    // downlink data\n    data: JSON.stringify(data),\n\n    // Optional metadata object presented in key/value format\n    metadata: {\n            topic: metadata['deviceType']+'/'+metadata['deviceName']+'/upload'\n    }\n\n};\n\nreturn result;",
+      "updateOnlyKeys" : [ "devEui", "fPort", "bandwidth", "spreading_factor", "coding_rate", "frequency", "net_id", "tenant_id", "cluster_id", "cluster_address", "device_id", "application_id", "join_eui", "dev_addr", "battery", "pir", "daylight", "eui" ]
+    },
+    "debugMode" : true,
+    "edgeTemplate" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "94542540-8621-11ef-aa57-71b15701cbc0"
+    },
+    "name" : "Downlink data converter for The Things Stack Community integration",
+    "type" : "DOWNLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

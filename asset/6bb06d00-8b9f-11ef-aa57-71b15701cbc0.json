@@ -1,0 +1,67 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "6bb06d00-8b9f-11ef-aa57-71b15701cbc0"
+    },
+    "label" : null,
+    "name" : "Asset3",
+    "ownerId" : null,
+    "type" : "AP"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1729070229569,
+      "longValue" : null,
+      "strValue" : "Singjamei"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1729070229569,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.781455,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1729070229569,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.938478,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1729070229569,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "owner",
+      "lastUpdateTs" : 1729070229569,
+      "longValue" : null,
+      "strValue" : "Steleo"
+    } ]
+  }
+}
