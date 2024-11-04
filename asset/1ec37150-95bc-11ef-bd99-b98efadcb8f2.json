@@ -1,0 +1,97 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "label" : null,
+    "name" : "SUPPLIER_1",
+    "ownerId" : null,
+    "type" : "AP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1730182067546,
+      "longValue" : null,
+      "strValue" : "Singjamei"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1730182168670,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1730182067546,
+      "longValue" : null,
+      "strValue" : "supplier@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.784453037533037,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1730441604313,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.938275,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1730441604313,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "manager",
+      "lastUpdateTs" : 1730182067546,
+      "longValue" : null,
+      "strValue" : "Robert"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1730182179998,
+      "longValue" : 12225454554,
+      "strValue" : null
+    } ]
+  }
+}

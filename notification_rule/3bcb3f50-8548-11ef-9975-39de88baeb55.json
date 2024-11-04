@@ -23,9 +23,9 @@
       "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT",
       "onlyRuleChainLifecycleFailures" : true,
       "onlyRuleNodeLifecycleFailures" : true,
-      "ruleChainEvents" : [ "STARTED", "STOPPED", "UPDATED" ],
+      "ruleChainEvents" : [ "STOPPED", "STARTED", "UPDATED" ],
       "ruleChains" : null,
-      "ruleNodeEvents" : [ "STARTED", "STOPPED", "UPDATED" ],
+      "ruleNodeEvents" : [ "STOPPED", "STARTED", "UPDATED" ],
       "trackRuleNodeEvents" : true,
       "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT"
     },

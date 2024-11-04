@@ -1,0 +1,111 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "1d23b640-91e6-11ef-bd99-b98efadcb8f2"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
+    },
+    "label" : null,
+    "name" : "xyz",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "I"
+  },
+  "credentials" : {
+    "credentialsId" : "gzJrrmVVNF5P2wWbe0Q7",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1730440960072,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1730440335022,
+      "longValue" : null,
+      "strValue" : "xyz"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "courier",
+      "lastUpdateTs" : 1730440335022,
+      "longValue" : null,
+      "strValue" : "xyz"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "deliver",
+      "lastUpdateTs" : 1730440335022,
+      "longValue" : null,
+      "strValue" : "01-11-2024"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1730440335022,
+      "longValue" : null,
+      "strValue" : "xyz@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1730440960072,
+      "longValue" : 1730440960072,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1730440335022,
+      "longValue" : null,
+      "strValue" : "4848488848"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
