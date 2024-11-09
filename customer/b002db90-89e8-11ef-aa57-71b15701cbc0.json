@@ -8,9 +8,13 @@
     "address2" : null,
     "city" : null,
     "country" : null,
+    "customMenuId" : null,
     "customerId" : null,
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "b002db90-89e8-11ef-aa57-71b15701cbc0"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "b002db90-89e8-11ef-aa57-71b15701cbc0"

@@ -16,12 +16,15 @@
         "mediaType" : "image/png",
         "width" : 250,
         "height" : 138,
-        "size" : 2408,
-        "etag" : "5942138c30cf7b2d860d659ac85848e887cee680bfd278a8dc079b3d6734cfa7"
+        "size" : 1535,
+        "etag" : "c1a9edd41f52571b64491a84917780bb3d20cf3dec54cae361d1e7889efa217a"
       }
     },
     "etag" : "4e457a8a2551e5062147a6798cef17c837538bd6d58c712bc00e30e52dc80c02",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "7f550b70-9510-11ef-bd99-b98efadcb8f2"
+    },
     "fileName" : "accuhealth-technologies-llc-vector-logo.png",
     "id" : {
       "entityType" : "TB_RESOURCE",
@@ -34,6 +37,7 @@
     "publicLink" : "/api/images/public/kH1TqF2QypSRfHf5MaDfcnaGkD3zO0oo",
     "publicResourceKey" : "kH1TqF2QypSRfHf5MaDfcnaGkD3zO0oo",
     "resourceKey" : "accuhealth-technologies-llc-vector-logo.png",
+    "resourceSubType" : "IMAGE",
     "resourceType" : "IMAGE",
     "title" : "accuhealth-technologies-llc-vector-logo.png"
   },

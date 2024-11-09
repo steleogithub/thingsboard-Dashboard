@@ -13,7 +13,10 @@
       "id" : "207ff560-8bab-11ef-aa57-71b15701cbc0"
     },
     "description" : "Default asset profile",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "20952b10-8bab-11ef-aa57-71b15701cbc0"
+    },
     "id" : {
       "entityType" : "ASSET_PROFILE",
       "id" : "20952b10-8bab-11ef-aa57-71b15701cbc0"

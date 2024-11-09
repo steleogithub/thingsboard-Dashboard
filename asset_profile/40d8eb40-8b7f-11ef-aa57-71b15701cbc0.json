@@ -10,7 +10,10 @@
       "id" : "3bafef20-8548-11ef-9975-39de88baeb55"
     },
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"
+    },
     "id" : {
       "entityType" : "ASSET_PROFILE",
       "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"

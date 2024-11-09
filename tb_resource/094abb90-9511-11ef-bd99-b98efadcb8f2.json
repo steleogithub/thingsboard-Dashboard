@@ -16,12 +16,15 @@
         "mediaType" : "image/png",
         "width" : 250,
         "height" : 36,
-        "size" : 2593,
-        "etag" : "b313e9cb674dee49e6b018a3aea6d5b746c6a5f0625922f7dc742792e6a4c6a0"
+        "size" : 2161,
+        "etag" : "91a1d1cffee5d053d6a5ada2930453f91dcaa71cb7f2d127ae0184f3a21b50d7"
       }
     },
     "etag" : "af0b3153bae1c9d3625b30717843070c38882d61a0b672a7bc31efb81785f65d",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "094abb90-9511-11ef-bd99-b98efadcb8f2"
+    },
     "fileName" : "accuhealth-logo-png_seeklogo-526509.png",
     "id" : {
       "entityType" : "TB_RESOURCE",
@@ -34,6 +37,7 @@
     "publicLink" : "/api/images/public/1QkfFuQPOkzcQW61A7NCUYGOs0SppBOp",
     "publicResourceKey" : "1QkfFuQPOkzcQW61A7NCUYGOs0SppBOp",
     "resourceKey" : "accuhealth-logo-png_seeklogo-526509.png",
+    "resourceSubType" : "IMAGE",
     "resourceType" : "IMAGE",
     "title" : "accuhealth-logo-png_seeklogo-526509.png"
   },

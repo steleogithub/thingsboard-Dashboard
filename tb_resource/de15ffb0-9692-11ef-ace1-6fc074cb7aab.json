@@ -16,12 +16,15 @@
         "mediaType" : "image/png",
         "width" : 231,
         "height" : 250,
-        "size" : 10834,
-        "etag" : "8d3d4a2c2774f5554023e70815f451fbb6ce66b16d8c96f051c22d047955f2ae"
+        "size" : 10177,
+        "etag" : "aa6ce951e8b260930d33fdd5cf20deb878df56db633cb39c2c0a9a99f43a5ee7"
       }
     },
     "etag" : "e25fefc1589ba23c71b7633bc774dec0da23e3b89e512ed5dbf0fa4f73ae402e",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "de15ffb0-9692-11ef-ace1-6fc074cb7aab"
+    },
     "fileName" : "temperature-and-humidity-icon-pixel-perfect-vector-40846872.jpg",
     "id" : {
       "entityType" : "TB_RESOURCE",
@@ -34,6 +37,7 @@
     "publicLink" : "/api/images/public/jnU7DIg8iIBOmZ9L4p2YJqeRlyXpnII5",
     "publicResourceKey" : "jnU7DIg8iIBOmZ9L4p2YJqeRlyXpnII5",
     "resourceKey" : "temperature-and-humidity-icon-pixel-perfect-vector-40846872.jpg",
+    "resourceSubType" : "IMAGE",
     "resourceType" : "IMAGE",
     "title" : "temperature-and-humidity-icon-pixel-perfect-vector-40846872.jpg"
   },

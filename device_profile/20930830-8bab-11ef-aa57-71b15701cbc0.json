@@ -5,7 +5,7 @@
     "defaultDashboardId" : null,
     "defaultEdgeRuleChainId" : {
       "entityType" : "RULE_CHAIN",
-      "id" : "208e7450-8bab-11ef-aa57-71b15701cbc0"
+      "id" : "79c6a790-8b88-11ef-aa57-71b15701cbc0"
     },
     "defaultQueueName" : null,
     "defaultRuleChainId" : {
@@ -13,7 +13,10 @@
       "id" : "207b6180-8bab-11ef-aa57-71b15701cbc0"
     },
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "20930830-8bab-11ef-aa57-71b15701cbc0"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",

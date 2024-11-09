@@ -32,7 +32,10 @@
     "downlinkConverterId" : null,
     "edgeTemplate" : false,
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "6aeea710-8622-11ef-aa57-71b15701cbc0"
+    },
     "id" : {
       "entityType" : "INTEGRATION",
       "id" : "6aeea710-8622-11ef-aa57-71b15701cbc0"
@@ -50,7 +53,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_nibiaa-dev",
-      "lastUpdateTs" : 1730194650611,
+      "lastUpdateTs" : 1731132745267,
       "longValue" : null,
       "strValue" : null
     } ]

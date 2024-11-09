@@ -12,13 +12,16 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
     },
     "label" : null,
-    "name" : "SUPPLIER_1",
+    "name" : "Center_1",
     "ownerId" : null,
     "type" : "AP"
   },
@@ -33,7 +36,8 @@
       "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
     },
     "type" : "Contains",
-    "typeGroup" : "COMMON"
+    "typeGroup" : "COMMON",
+    "version" : 1791
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {

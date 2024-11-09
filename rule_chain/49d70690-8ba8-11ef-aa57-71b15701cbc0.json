@@ -6,7 +6,10 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "49d70690-8ba8-11ef-aa57-71b15701cbc0"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "bc2b3210-9293-11ef-bd99-b98efadcb8f2"
@@ -225,7 +228,7 @@
         "endInterval" : 1,
         "endIntervalTimeUnit" : "MINUTES"
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

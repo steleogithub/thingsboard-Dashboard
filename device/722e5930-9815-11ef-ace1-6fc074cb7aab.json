@@ -18,7 +18,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "1d23b640-91e6-11ef-bd99-b98efadcb8f2"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -46,7 +49,8 @@
       "id" : "722e5930-9815-11ef-ace1-6fc074cb7aab"
     },
     "type" : "Contains",
-    "typeGroup" : "COMMON"
+    "typeGroup" : "COMMON",
+    "version" : 1791
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -54,7 +58,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1730440960072,
+      "lastUpdateTs" : 1731132743164,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -96,6 +100,22 @@
       "key" : "inactivityAlarmTime",
       "lastUpdateTs" : 1730440960072,
       "longValue" : 1730440960072,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.762199,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1731134020611,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.935455,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1731134091798,
+      "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,

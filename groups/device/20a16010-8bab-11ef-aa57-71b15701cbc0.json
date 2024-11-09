@@ -27,7 +27,10 @@
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "20a16010-8bab-11ef-aa57-71b15701cbc0"
+    },
     "groupAll" : false,
     "id" : {
       "entityType" : "ENTITY_GROUP",
@@ -36,7 +39,7 @@
     "name" : "AQI Sensor",
     "ownerId" : {
       "entityType" : "TENANT",
-      "id" : "3ba9ad90-8548-11ef-9975-39de88baeb55"
+      "id" : "c0596db0-9e60-11ef-80fe-f182628b11c0"
     },
     "type" : "DEVICE"
   },
