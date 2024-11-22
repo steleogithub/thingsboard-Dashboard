@@ -1,0 +1,85 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "3bc15440-8548-11ef-9975-39de88baeb55"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "e08b69c0-a249-11ef-85b9-e9af1da7c5c0"
+    },
+    "label" : null,
+    "name" : "Courier 2",
+    "ownerId" : null,
+    "type" : "Courier"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e08b69c0-a249-11ef-85b9-e9af1da7c5c0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e6a95b20-a639-11ef-bd52-dbe480fbdf00"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 7838
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "e08b69c0-a249-11ef-85b9-e9af1da7c5c0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6661
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1731655517727,
+      "longValue" : null,
+      "strValue" : "abc"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1731648647565,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1731562365633,
+      "longValue" : null,
+      "strValue" : "xyz@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1731562365633,
+      "longValue" : null,
+      "strValue" : "1234567895"
+    } ]
+  }
+}

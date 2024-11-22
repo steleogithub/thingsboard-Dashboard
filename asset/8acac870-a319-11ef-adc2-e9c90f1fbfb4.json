@@ -1,0 +1,75 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "40d8eb40-8b7f-11ef-aa57-71b15701cbc0"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "8acac870-a319-11ef-adc2-e9c90f1fbfb4"
+    },
+    "label" : null,
+    "name" : "Center2",
+    "ownerId" : null,
+    "type" : "Center"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : "xyz"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : "xyz@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 24.798625,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 93.934438,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "manager",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : "Jack"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1731651557117,
+      "longValue" : null,
+      "strValue" : "1234567888"
+    } ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDI0LTExLTExVDEyOjA1OjAzLTA2OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyNC0xMS0xMVQxMjowNzoyNS0wNjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0xMS0xMVQxMjowNzoyNS0wNjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3ZTFlNDk2Zi01MDYzLTE4NDQtOTlkYS04NTk3YjM0YWE5NjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N2UxZTQ5NmYtNTA2My0xODQ0LTk5ZGEtODU5N2IzNGFhOTYyIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6N2UxZTQ5NmYtNTA2My0xODQ0LTk5ZGEtODU5N2IzNGFhOTYyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo3ZTFlNDk2Zi01MDYzLTE4NDQtOTlkYS04NTk3YjM0YWE5NjIiIHN0RXZ0OndoZW49IjIwMjQtMTEtMTFUMTI6MDU6MDMtMDY6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz65zIX6AAAC/klEQVRIie2VTWhdVRDHfzPn3vtub/NePupLSCMaihQEPxrrskWQKkJ1oQtpcWM3BRcu3BVqRLEguqhLEVyUCi5duOkmRFz4gStxoaCCosZKTRpTn3n35t4z08VLEfIiPBdxIQ6czTmc+X/MnDni7ux16J4j/A/yTyPZuXHm4UP+6okN9mfgDmgLlQShAusDgoQcowWxxDFUEsraOL/U4Z2l72RnTtnZXSuvzfh4DlUDKg3Wv05w0GISybtgAS9/wMo+XhxAJGBu5EnCRgmz564OgQwpKTJhq3HUGxAhHHkBO3KGujNPyNq4G1auk/70EWHpOSxuEkKbqqkp0jCaXW4NIilCBGnjj1xkKgdjsAKKFAdg6imude8hvXwfEiKqARu1JqoJ7hF0H17+DD8us57khC8voZureGee/vGXmRrv0D14mN8ffBH/dBEdm9umMYoSd0QC4hHPu8gHT0NvDYlACmkJDvjjFzGguesk2WeLOIJYHA0EdYgRV1ACUv0G8yeo732WZnoBzyeRrEN+i1Q+gQSQv9WxG4gpyMB9qX6leew9kvtPM5n8lehWMgVwQQFXRXz3ZzdslxpKhm+u4MffYOLoaQRY+7NGv3ib7PsrWHeB9NELJAIijiu4RdxHrImgOI4oVHc/QwcogfzKWeTrS3iA1CLIQJGgqEEUcNldydCumkEsodWFbGxQ3Ab0+lcD77egf+gJ0u3Ltg3mruioSkwV8RTv/wKbq+hEh1YC6yffJf/8Teo7H6JYOAVAA+CDbhOJmI6oxCziMjhpffwKvQYyYGbuMONPvsVtD5yif6NHrxowDPsmcMDMsFFbWE1wLyGbgW8vw/sNq8dewooZNFaElU/Il59n69jrrM0dRVa/wZNJ3AwdmlqDGB6QF6a9UzhVNBJt4fVVpAbJO1DfwBrQYgyve1i9TTObphWcjU04eP7aENSQXYsfttkojSABswpPZ/FiFgs55NPQnsPZD61ZQvsOJL+dIJE/tozF5fZoSvYi/jvf778CchM84TqCtzf+KwAAAABJRU5ErkJggg==",
+    "descriptor" : {
+      "mediaType" : "image/png",
+      "width" : 25,
+      "height" : 25,
+      "size" : 2164,
+      "etag" : "f5e6ac3a195e1a603ca38afa2882367cb6d2b60854ac7919ccd2d91aad36e036",
+      "previewDescriptor" : {
+        "mediaType" : "image/png",
+        "width" : 25,
+        "height" : 25,
+        "size" : 2164,
+        "etag" : "f5e6ac3a195e1a603ca38afa2882367cb6d2b60854ac7919ccd2d91aad36e036"
+      }
+    },
+    "etag" : "f5e6ac3a195e1a603ca38afa2882367cb6d2b60854ac7919ccd2d91aad36e036",
+    "externalId" : null,
+    "fileName" : "website logo accuhealth.png",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "74c4fca0-9ff7-11ef-80fe-f182628b11c0"
+    },
+    "link" : "/api/images/tenant/website logo accuhealth.png",
+    "name" : "website logo accuhealth.png",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/ZfkxwvxKlvp9xnP2aQFMH4o7X2rLAvtN",
+    "publicResourceKey" : "ZfkxwvxKlvp9xnP2aQFMH4o7X2rLAvtN",
+    "resourceKey" : "website logo accuhealth.png",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "website logo accuhealth.png"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

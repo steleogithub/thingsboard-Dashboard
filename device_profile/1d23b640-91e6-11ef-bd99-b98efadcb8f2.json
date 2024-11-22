@@ -5,7 +5,10 @@
     "defaultDashboardId" : null,
     "defaultEdgeRuleChainId" : null,
     "defaultQueueName" : null,
-    "defaultRuleChainId" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3bafef20-8548-11ef-9975-39de88baeb55"
+    },
     "description" : "Default device profile",
     "externalId" : {
       "entityType" : "DEVICE_PROFILE",
@@ -17,9 +20,85 @@
       "id" : "1d23b640-91e6-11ef-bd99-b98efadcb8f2"
     },
     "image" : null,
-    "name" : "I",
+    "name" : "Courier",
     "profileData" : {
-      "alarms" : [ ],
+      "alarms" : [ {
+        "alarmType" : "Battery Alarm",
+        "clearRule" : null,
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "Device battery is running low",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "battery",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 20.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "821b6788-dee0-00dd-426b-7595361eee3f",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Temperature",
+        "clearRule" : null,
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "temperature",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 20.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "669fdb53-17b8-895d-c737-6f967e4dfeea",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
       "configuration" : {
         "type" : "DEFAULT"
       },

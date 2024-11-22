@@ -1,0 +1,100 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "1d23b640-91e6-11ef-bd99-b98efadcb8f2"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e6a95b20-a639-11ef-bd52-dbe480fbdf00"
+    },
+    "label" : null,
+    "name" : "temp",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Courier"
+  },
+  "credentials" : {
+    "credentialsId" : "VWdkYzNWqVDLwYZ9nlKF",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e08b69c0-a249-11ef-85b9-e9af1da7c5c0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e6a95b20-a639-11ef-bd52-dbe480fbdf00"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 7838
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1731995913914,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1731995458484,
+      "longValue" : null,
+      "strValue" : "Address"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1731995458484,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "courier",
+      "lastUpdateTs" : 1731995458484,
+      "longValue" : null,
+      "strValue" : "Sobash"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1731995913913,
+      "longValue" : 1731995913913,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

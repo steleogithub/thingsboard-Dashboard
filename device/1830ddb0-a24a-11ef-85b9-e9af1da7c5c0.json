@@ -1,0 +1,168 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "1d23b640-91e6-11ef-bd99-b98efadcb8f2"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "1830ddb0-a24a-11ef-85b9-e9af1da7c5c0"
+    },
+    "label" : null,
+    "name" : "CD-1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Courier"
+  },
+  "credentials" : {
+    "credentialsId" : "BNaAiCcdmTHHT4qi1IAJ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1830ddb0-a24a-11ef-85b9-e9af1da7c5c0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6663
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1731574450002,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1731657169908,
+      "longValue" : null,
+      "strValue" : "Example"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "battery",
+      "lastUpdateTs" : 1731679040075,
+      "longValue" : 18,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1731645244633,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "courier",
+      "lastUpdateTs" : 1731666433705,
+      "longValue" : null,
+      "strValue" : "robert"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "date_assigned",
+      "lastUpdateTs" : 1731653822866,
+      "longValue" : null,
+      "strValue" : "2024-11-15T06:00:00.000Z"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1731656505959,
+      "longValue" : null,
+      "strValue" : "exampe@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1731574450002,
+      "longValue" : 1731574450001,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1731573809327,
+      "longValue" : 1731573809039,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1731563569267,
+      "longValue" : null,
+      "strValue" : "24.790522"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1731563585841,
+      "longValue" : null,
+      "strValue" : "93.933751"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1731653822866,
+      "longValue" : 549494949,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "temperature",
+      "lastUpdateTs" : 1731563498777,
+      "longValue" : 41,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "vibration",
+      "lastUpdateTs" : 1731563601308,
+      "longValue" : null,
+      "strValue" : "1.5"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

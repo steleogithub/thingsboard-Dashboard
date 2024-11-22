@@ -1,0 +1,45 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIgIzM4NjZjMiIgd2lkdGg9IjgwMHB4IiBoZWlnaHQ9IjgwMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIGlkPSJpY29uIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8ZGVmcz4gPHN0eWxlPiAuY2xzLTEgeyBmaWxsOiBub25lOyB9IDwvc3R5bGU+IDwvZGVmcz4gPHRpdGxlPmh1bWlkaXR5PC90aXRsZT4gPHBhdGggZD0iTTIzLjQ3NjEsMTMuOTkzMiwxNi44NDcyLDMuNDM2NWExLjA0LDEuMDQsMCwwLDAtMS42OTQ0LDBMOC40OTQxLDE0LjA0NDRBOS45ODYxLDkuOTg2MSwwLDAsMCw3LDE5YTksOSwwLDAsMCwxOCwwQTEwLjA2MzIsMTAuMDYzMiwwLDAsMCwyMy40NzYxLDEzLjk5MzJaTTE2LDI2LjAwMDVhNy4wMDg5LDcuMDA4OSwwLDAsMS03LTcsNy45NzgsNy45NzgsMCwwLDEsMS4yMTgzLTMuOTQzOGwuOTM1LTEuNDg4OEwyMS4yMjcxLDIzLjY0MTFBNi45NzcyLDYuOTc3MiwwLDAsMSwxNiwyNi4wMDA1WiIvPiA8cmVjdCBpZD0iX1RyYW5zcGFyZW50X1JlY3RhbmdsZV8iIGRhdGEtbmFtZT0iJmx0O1RyYW5zcGFyZW50IFJlY3RhbmdsZSZndDsiIGNsYXNzPSJjbHMtMSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+IDwvZz4KDTwvc3ZnPg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 800,
+      "height" : 800,
+      "size" : 955,
+      "etag" : "714cd6c415d20920b86a72c0dbb7a47cb0ddceec262840849e579ede079bdfd2",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 800,
+        "height" : 800,
+        "size" : 955,
+        "etag" : "714cd6c415d20920b86a72c0dbb7a47cb0ddceec262840849e579ede079bdfd2"
+      }
+    },
+    "etag" : "714cd6c415d20920b86a72c0dbb7a47cb0ddceec262840849e579ede079bdfd2",
+    "externalId" : null,
+    "fileName" : "humidity-svgrepo-com.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "505afc30-a361-11ef-adc2-e9c90f1fbfb4"
+    },
+    "link" : "/api/images/tenant/humidity-svgrepo-com.svg",
+    "name" : "humidity-svgrepo-com.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/1g2xeNHb5EmzeV3enizIpLO0lmoQDbTl",
+    "publicResourceKey" : "1g2xeNHb5EmzeV3enizIpLO0lmoQDbTl",
+    "resourceKey" : "humidity-svgrepo-com.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "humidity-svgrepo-com.svg"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

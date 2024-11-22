@@ -1,0 +1,98 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "3bc15440-8548-11ef-9975-39de88baeb55"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
+    },
+    "label" : null,
+    "name" : "Courier 1",
+    "ownerId" : null,
+    "type" : "Courier"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6541
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1830ddb0-a24a-11ef-85b9-e9af1da7c5c0"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6663
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "50315f50-a30d-11ef-adc2-e9c90f1fbfb4"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 7835
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1731665892474,
+      "longValue" : null,
+      "strValue" : "sdtrherh"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "booleanValue",
+      "lastUpdateTs" : 1731652340350,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1731503643406,
+      "longValue" : null,
+      "strValue" : "example@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "number",
+      "lastUpdateTs" : 1731503643406,
+      "longValue" : null,
+      "strValue" : "9876543210"
+    } ]
+  }
+}

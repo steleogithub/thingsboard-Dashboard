@@ -1,0 +1,45 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjMzg2NmMyIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8dGl0bGU+YmF0dGVyeTQ8L3RpdGxlPiA8cGF0aCBkPSJNMTkuMDExIDI4Ljk4OWgtNy4wMjFjLTEuMDk5IDAtMS45ODgtMC44OS0xLjk4OC0xLjk4OHYtMTkuMDE0YzAtMS4wOTggMC44OS0xLjk4OCAxLjk4OC0xLjk4OGgxLjA1N2MwIDAgMCAwLjA1MiAwLTAuNDk3czAuMzgzLTEuNDkxIDAuOTMyLTEuNDkxaDIuOTgyYzAuNTQ5IDAgMC45OTQgMC45NDIgMC45OTQgMS40OTFzMCAwLjQ5NyAwIDAuNDk3aDEuMDU3YzEuMDk5IDAgMS45ODggMC44OTEgMS45ODggMS45ODh2MTkuMDE0Yy0wLjAwMSAxLjA5OS0wLjg5MSAxLjk4OC0xLjk4OSAxLjk4OHpNMTYuOTYgOS4wNDRoLTAuOTk0di0wLjk5NGgtMC45MzJ2MC45OTRoLTAuOTk0djAuOTk0aDAuOTk0djAuOTk0aDAuOTMydi0wLjk5NGgwLjk5NHYtMC45OTR6TTIwLjAwNSAxMi45NThoLTkuMDEwdjE0LjA0M2MwIDAuNTUgMC40NDUgMC45OTQgMC45OTQgMC45OTRoNy4wMjFjMC41NDkgMCAwLjk5NC0wLjQ0NCAwLjk5NC0wLjk5NHYtMTQuMDQzek0xMy45NzggMjQuOTVoMy4wNDV2MS4wNTdoLTMuMDQ1di0xLjA1N3oiLz4gPC9nPgoNPC9zdmc+",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 800,
+      "height" : 800,
+      "size" : 1026,
+      "etag" : "6b89c0800945348e61970d80e3fe62862c02b7a7a4fda99fddb835ec1a32c58d",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 800,
+        "height" : 800,
+        "size" : 1026,
+        "etag" : "6b89c0800945348e61970d80e3fe62862c02b7a7a4fda99fddb835ec1a32c58d"
+      }
+    },
+    "etag" : "6b89c0800945348e61970d80e3fe62862c02b7a7a4fda99fddb835ec1a32c58d",
+    "externalId" : null,
+    "fileName" : "battery4-svgrepo-com.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "cf3f9b40-a353-11ef-adc2-e9c90f1fbfb4"
+    },
+    "link" : "/api/images/tenant/battery4-svgrepo-com.svg",
+    "name" : "battery4-svgrepo-com.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/iNfL8SMCGeohP4zoX8Jj7TgBv8RVnZEs",
+    "publicResourceKey" : "iNfL8SMCGeohP4zoX8Jj7TgBv8RVnZEs",
+    "resourceKey" : "battery4-svgrepo-com.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "battery4-svgrepo-com.svg"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
