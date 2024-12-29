@@ -41,24 +41,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "1830ddb0-a24a-11ef-85b9-e9af1da7c5c0"
+      "id" : "b7d27790-c0fc-11ef-a2c8-eb9802ff46f2"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 6663
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "27603030-a1c1-11ef-85b9-e9af1da7c5c0"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "50315f50-a30d-11ef-adc2-e9c90f1fbfb4"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON",
-    "version" : 7835
+    "version" : 12494
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {

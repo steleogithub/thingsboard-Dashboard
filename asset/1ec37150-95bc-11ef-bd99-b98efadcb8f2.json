@@ -58,12 +58,12 @@
       "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
     },
     "to" : {
-      "entityType" : "DEVICE",
-      "id" : "2cee8160-a364-11ef-adc2-e9c90f1fbfb4"
+      "entityType" : "CUSTOMER",
+      "id" : "44646550-92b9-11ef-bd99-b98efadcb8f2"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 7227
+    "version" : 8031
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {

@@ -30,7 +30,20 @@
     "title" : "customer 1",
     "zip" : null
   },
-  "relations" : [ ],
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1ec37150-95bc-11ef-bd99-b98efadcb8f2"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "44646550-92b9-11ef-bd99-b98efadcb8f2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 8031
+  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
